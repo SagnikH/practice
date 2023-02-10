@@ -23,9 +23,9 @@ BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 SECRET_KEY = 'r_%(x8=5za&7pq8s9hk(u=o4%at$0q7$9u-_y9)&y%klphr#(7'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['test1-dteb.onrender.com']
 
 
 # Application definition
